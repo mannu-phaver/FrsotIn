@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+/* 
+/* Navigation Bar 
+.nav_bar {
+    background-color: #282c34;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #61dafb;
+    text-decoration: none;
+}
+
+.nav_bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav_bar ul li {
+    margin: 0 10px;
+}
+
+.nav_bar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px 12px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav_bar ul li a:hover {
+    background-color: #61dafb;
+    color: #282c34;
+    border-radius: 5px;
+}
+/* Responsive Navigation 
+@media (max-width: 768px) {
+    .nav_bar ul {
+        flex-direction: column;
+        background-color: #333;
+        width: 100%;
+        display: none;
+    }
+
+    .nav_bar ul li {
+        margin: 5px 0;
+    }
+
+    .nav_bar .menu-toggle {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav_bar ul.show {
+        display: flex;
+    }
+}
+
+/* Menu Toggle Button 
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    color: #61dafb;
+    cursor: pointer;
+} */
+
+/* 
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Footer Section 
+
+.footer2 {
+    background-color: #021734;
+    color: #ffffff;
+    padding: 40px 0;
+    position: relative;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-content2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.main-content2 .box2 {
+    flex: 1 1 calc(25% - 20px);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    min-width: 280px;
+}
+
+/* Section Headings 
+.box2 h2,
+.box2 h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* About Us Section 
+.left2 .content2 p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.social2-icons a {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.social2-icons a:hover {
+    color: #007bff;
+}
+
+/* Address Section 
+.center2 .content2 div {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.center2 .content2 span {
+    margin-left: 10px;
+    font-size: 1rem;
+}
+/* Useful Links Section 
+.useful-links2 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.useful-links2 li {
+    margin-bottom: 10px;
+}
+
+.useful-links2 li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.useful-links2 li a:hover {
+    color: #007bff;
+}
+
+/* Contact Us Section 
+.right2 form .text2 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.right2 form input,
+.right2 form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.right2 form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.right2 form button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design 
+@media screen and (max-width: 768px) {
+    .main-content2 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .main-content2 .box2 {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+} */

@@ -1,0 +1,87 @@
+.testimonial-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.testimonial-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.testimonial-section p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.testimonial-slider {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.testimonial {
+    display: none;
+    width: 100%;
+    text-align: center;
+    border: 2px solid #ccc; /* Add border color for the testimonial frame */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for the frame */
+    margin: 10px;
+    background-color: #fff;
+}
+
+.testimonial .quote {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #555;
+}
+
+.testimonial .testimonial-text {
+    font-size: 1.125rem;
+    font-weight: normal;
+    color: #333;
+    margin-top: 15px;
+}
+
+.author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.author-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #333; /* Circular border for the image */
+    margin-right: 15px;
+}
+
+.author-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.author-title {
+    font-style: italic;
+    color: #777;
+}
+
+.slider-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.slider-button:hover {
+    background-color: #555;
+}

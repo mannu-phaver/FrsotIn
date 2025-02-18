@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="icon" href="logo.png">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body >
+    <nav class="nav_bar">
+        <div class="nav_div">
+            <div class="logo"><a href="#">Frost</a></div>
+
+            <!-- Mobile Menu Button -->
+            <div class="menu-toggle" id="menu-toggle">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <!-- Navigation Links -->
+            <ul id="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contactus.html">Contact us</a></li>
+                <li><a href="products.html">Products</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- <script src="script.js"></script> -->
+    <!-- Slider Section -->
+
+    <div class="slide-container">
+        <div class="slides">
+            <img src="image2.jpg" class="active">
+            <img src="image2.jpg">
+            <img src="image2.jpg">
+            <img src="image2.jpg">
+        </div>
+
+        <!-- Navigation Buttons -->
+        <div class="buttons">
+            <span class="prev">&#10094;</span>
+            <span class="next">&#10095;</span>
+        </div>
+
+        <!-- Dots for Navigation -->
+        <div class="dots-container">
+            <div class="dot active" data-index="0"></div>
+            <div class="dot" data-index="1"></div>
+            <div class="dot" data-index="2"></div>
+            <div class="dot" data-index="3"></div>
+        </div>
+
+        <!-- Overlay Text -->
+        <div class="overlay-text">CLEAN ROOM DOOR AND PANEL</div>
+    </div>
+        
+    
+
+    <div class="about1">
+        <section class="about">
+            <h2>About Us</h2>
+            <p style="left: 20px;">
+                At Frost, we are dedicated to providing high-quality cold storage solutions to meet your specific needs. As one of the leading cold room manufacturers in Chennai, Tamil Nadu, India, we specialize in designing and manufacturing advanced cold room storage systems that ensure optimal performance and durability.
+            </p>
+            <p>
+                We pride ourselves on stringent quality checks, carried out across the entire range of our products. Our goal is to ensure that our products are flawless and comply with all industry standards and regulations.
+            </p>
+            <p>
+                Continuous improvement and innovation in our products remain at the core of our company. In line with our commitment to excellence, we have established a dedicated research and development unit. Our team of specialized professionals is constantly working to enhance the functionality and efficiency of our cold storage solutions.
+            </p>
+        </section>
+    </div>
+
+<!-- Features Section  -->
+<section class="features">
+    <div class="feature">
+        <img src="icon1.png" alt="Compact Design">
+        <h3>Compact Design</h3>
+        <p>
+            Reduce your outdoor installation’s footprint by integrating all of your 
+            <strong>refrigeration and air conditioning</strong> components into a single packaged condensing unit.
+        </p>
+    </div>
+
+    <div class="feature">
+        <img src="icon2.png" alt="Durable Products">
+        <h3>Durable Products</h3>
+        <p>
+            We manufacture walk-in cold rooms, clean rooms, ripening & pre-cooling chambers, blast & tunnel freezers, 
+            and commercial cold storage. Weather-resistant housing ensures longer product lifetimes.
+        </p>
+    </div>
+
+    <div class="feature">
+        <img src="icon3.png" alt="Flexible Application">
+        <h3>Flexible Application</h3>
+        <ul>
+            <li>Dairy Industry</li>
+            <li>Ice Cream Industry</li>
+            <li>Retail Outlet for Dairy & Ice Cream</li>
+            <li>Hotels & Restaurants</li>
+            <li>Hospitality Industry</li>
+            <li>Food Processing Industry</li>
+        </ul>
+    </div>
+</section>
+    <!-- Products Section -->
+    <section class="product-section">
+        <h2>Our Products</h2>
+        <div class="slider-container">
+            <div class="slider">
+                <!-- Slide 1 -->
+                <div class="slide">
+                    <div class="product">
+                        <img src="image1.jpeg" alt="Banana Ripening Chamber">
+                        <h3>Banana Ripening Chamber</h3>
+                        <button class="btn" onclick="showDetails(0)">Read More</button>
+                        <p class="product-info">A specialized chamber for controlled banana ripening with temperature and humidity management.</p>
+                    </div>
+                    <div class="product">
+                        <img src="image2.jpg" alt="Clean Room Door and Panel">
+                        <h3>Clean Room Door and Panel</h3>
+                        <button class="btn" onclick="showDetails(1)">Read More</button>
+                        <p class="product-info">Advanced clean room doors and panels designed for hygiene and controlled environments.</p>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="slide">
+                    <div class="product">
+                        <img src="image2.jpg" alt="Medicine Cold Room">
+                        <h3>Medicine Cold Room</h3>
+                        <button class="btn" onclick="showDetails(2)">Read More</button>
+                        <p class="product-info">Cold storage solutions designed to maintain optimal temperatures for medical products.</p>
+                    </div>
+                    <div class="product">
+                        <img src="icon3.png" alt="Trufrost Product">
+                        <h3>Trufrost Product</h3>
+                        <button class="btn" onclick="showDetails(3)">Read More</button>
+                        <p class="product-info">High-tech refrigeration equipment to ensure fresh and temperature-controlled storage.</p>
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <div class="product">
+                        <img src="icon2.png" alt="Additional Product 1">
+                        <h3>Additional Product 1</h3>
+                        <button class="btn" onclick="showDetails(4)">Read More</button>
+                        <p class="product-info">An advanced cooling unit for industrial and commercial applications.</p>
+                    </div>
+                    <div class="product">
+                        <img src="icon1.png" alt="Additional Product 2">
+                        <h3>Additional Product 2</h3>
+                        <button class="btn" onclick="showDetails(5)">Read More</button>
+                        <p class="product-info">Custom-built refrigeration solutions for food preservation and logistics.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </section>
+    <!-- footer section -->
+<footer class="footer2">
+    <div class="main-content2">
+        <div class="left2 box2">
+            <h2>About Us</h2>
+            <div class="content2">
+                <p>Our mission is to deliver reliable and innovative cold storage systems tailored to meet your business needs while prioritizing sustainability and quality. Partner with us to keep your products fresh and secure.</p>
+                <div class="social2-icons">
+                    <a href="#"><span class="fab fa-facebook"></span></a>
+                    <a href="#"><span class="fab fa-twitter"></span></a>
+                    <a href="#"><span class="fab fa-instagram"></span></a>
+                    <a href="#"><span class="fab fa-linkedin"></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="center2 box2">
+            <h2>Address</h2>
+            <div class="content2">
+                <div class="place2">
+                    <span class="fas fa-map-marker-alt"></span>
+                    <span class="text2">KPHB, Hyderabad</span>
+                </div>
+                <div class="phone2">
+                    <span class="fas fa-phone-alt"></span>
+                    <span class="text2">+91-6305552375</span>
+                </div>
+                <div class="email2">
+                    <span class="fas fa-envelope"></span>
+                    <span class="text2">info@frost.com</span>
+                </div>
+            </div>
+        </div>
+        <div class="center2 box2">
+            <h3>Useful Links</h3>
+            <div class="content2">
+                <ul class="useful-links2">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="Products.html">Products</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Contact Us Section -->
+        <div class="right2 box2">
+            <h2>Contact Us</h2>
+            <div class="content2">
+                <form action="#">
+                    <div class="email2">
+                        <div class="text2">Email *</div>
+                        <input type="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="msg2">
+                        <div class="text2">Message *</div>
+                        <textarea rows="3" cols="25" placeholder="Enter your message" required></textarea>
+                    </div>
+                    <div class="btn2">
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
