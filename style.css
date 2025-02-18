@@ -139,20 +139,6 @@ body {
     }
 }
 
-/* General Reset */
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-/* General Reset 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-} */
 
 /* Product Section */
 .product-section {
@@ -299,29 +285,6 @@ body {
         padding: 6px 12px;
     }
 }
-
-
-
-
-/* .about1 p{
-    display: inline;
-    height: fit-content;
-    width: max-content;
-    line-height: 20px;
-} */
-
-
-/* .about3{
-    display: block;
-    line-height: 30px;
-    /* justify-items: center; 
-    align-items: center;
-} */
-/* .about p{
-    display: flex;
-    justify-content: center;
-
-} */
 
 /* Navigation Bar */
 .nav_bar {
@@ -963,12 +926,12 @@ body {
     }
 }
 /* General Reset */
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-}
+} */
 
 /* Body and Section Styling */
 body {
@@ -983,9 +946,6 @@ body {
     margin-bottom: 20px;
 }
 
-/* Testimonials Section (Slider) */
-/* Testimonials Section */
-/* Testimonials Section */
 /* Testimonials Section */
 .testimonial-section {
     text-align: center;
